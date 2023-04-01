@@ -34,14 +34,12 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Menu</h1>
-        <Menu
-          mealType="Breakfast"
-          items={breakfastMenu}
-          prices={breakfastMenuPrices}
-        />
-      </header>
+      <h1>Menu</h1>
+      <Menu
+        mealType="Breakfast"
+        items={breakfastMenu}
+        prices={breakfastMenuPrices}
+      />
     </div>
   );
 }
